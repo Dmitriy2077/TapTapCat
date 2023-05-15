@@ -8,14 +8,18 @@ import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColorScheme(
     primary = Yellow900,
-    onPrimary = Red900,
+    onPrimary = Amber900,
     secondary = Blue500
 )
 
 private val LightColorPalette = lightColorScheme(
-    primary = Orange800,
-    onPrimary = Red900,
-    secondary = Blue500
+    primary = Amber900,
+    onPrimary = BlueX,
+    secondary = Blue500,
+    background = Amber50,
+    onBackground = Amber900,
+    surface = Yellow900,
+    onSurface = Amber900
 )
 
 @Composable
